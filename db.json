@@ -1,0 +1,125 @@
+{
+    "fruits" : [
+    {
+      "id": 1,
+      "title": "Think Like a Monk",
+      "price": "400",
+      "category": "self-help",
+      "description": "Author: Jay Shetty",
+      "image": "https://images.hellomagazine.com/imagenes/healthandbeauty/health-and-fitness/20210107104018/best-self-help-books-motivational-reads/0-501-85/think-monk-z.jpg?tx=w_360"
+    },
+    {
+      "id": 2,
+      "title": "A Man Called Ove",
+      "price": "350",
+      "category": "Novel",
+      "description": "Author: Fredrik Backman",
+      "image": "https://cdn.shopify.com/s/files/1/1192/7528/products/BK0063252_800x.jpg?v=1633933201"
+    },
+    {
+      "id": 3,
+      "title": "2 States",
+      "price": "500",
+      "category": "Romance",
+      "description": "Author: Chetan Bhagat",
+      "image": "https://i1.wp.com/hareepatti.com/wp-content/uploads/2014/05/1656328_10151918011670583_1763533292_n.jpg?ssl=1"
+    },
+    {
+      "id": 4,
+      "title": "Half Girlfriend",
+      "price": "320",
+      "category": "Romance",
+      "description": "Author: Chetan Bhagat",
+      "image": "https://5.imimg.com/data5/LE/BL/MY-11183377/half-girlfriend-500x500.png"
+    },
+    {
+      "id": 5,
+      "title": "Fall To Earth",
+      "price": "780",
+      "category": "Sci Fi",
+      "description": "Author: Ken Britz",
+      "image": "https://m.media-amazon.com/images/I/41m0T7VZwAL.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Enceladus",
+      "price": "500",
+      "category": "Sci Fi",
+      "description": "Author: Brandon Q. Morris",
+      "image": "https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/02/attachment_74814572-e1486420174369.jpg?auto=format&q=60&fit=max&w=930"
+    },
+    {
+      "id": 7,
+      "title": "Dune (novel)",
+      "price": "400",
+      "category": "Novel",
+      "description": "Author: Frank Herbert",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81lksIr5vRL._AC_UL210_SR210,210_.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Hidden Hindu",
+      "price": "200",
+      "category": "Hindu mythology",
+      "description": "Author: Akshat Gupta",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/81nZaGgPAGL._AC_UL232_SR232,232_.jpg"
+    },
+    {
+      "id": 9,
+      "title": "The Vagrant",
+      "price": "800",
+      "category": "Fantasy",
+      "description": "Author: Peter Newman",
+      "image": "https://m.media-amazon.com/images/I/81Iq-Av+ijL.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Beyond Infinity",
+      "price": "300",
+      "category": "Sci Fi",
+      "description": "Author: AkashSiddarth",
+      "image": "https://m.media-amazon.com/images/I/71QwGBklFxL.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Love Unexpected",
+      "price": "500",
+      "category": "Romance",
+      "description": "Author: Ritu Kakar",
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1577952891l/50247150._SY475_.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Finding Home",
+      "price": "400",
+      "category": "Romance",
+      "description": "Author: Emily R Pearson",
+      "image": "https://rukminim1.flixcart.com/image/612/612/jj4ln680/book/5/6/5/finding-home-original-imaf6r4djybfjqkq.jpeg?q=70"
+    },
+    {
+      "id": 13,
+      "title": "Shiva Origins",
+      "price": "400",
+      "category": "Hindu Mythology",
+      "description": "Author: Dinesh Veera",
+      "image": "https://m.media-amazon.com/images/I/514pbAgPLZL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg"
+    },
+    {
+      "id": 14,
+      "title": "The Girl of My Dreams",
+      "price": "300",
+      "category": "Novel",
+      "description": "Author: Durjoy Dutta",
+      "image": "https://www.bookgeeks.in/wp-content/uploads/2018/01/The-Girl-of-My-Dreams-by-Durjoy-Datta.jpg"
+    },
+    {
+      "id": 15,
+      "title": "One Indian Girl",
+      "price": "500",
+      "category": "Novel",
+      "description": "Author: Chetan Bhagat",
+      "image": "https://4.imimg.com/data4/SQ/AK/MY-9282730/one-indian-girl-500x500.jpg"
+    }
+  ]
+  
+}
