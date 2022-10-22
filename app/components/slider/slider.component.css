@@ -1,0 +1,23 @@
+/* body{
+    background-color: #000;
+} */
+.style2{
+    padding-top: 4%;
+    padding-bottom: 1%;
+    border:1px solid white;
+    margin-bottom: 3%;
+    color: white;
+    margin-left: 2px;
+    border-radius: 25px;
+}
+.icons{
+    margin-left: 8px;
+    
+}
+.style3{
+    margin-top: 40px;
+}
+.style4{
+    margin-top: 4%;
+    margin-left: 28%;
+}

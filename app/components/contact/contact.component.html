@@ -1,0 +1,63 @@
+<h3>Address Form</h3>
+<form class="formwidth" (ngSubmit)="onSubmit()" #myForm="ngForm">
+    <table class="fullwidth" cellspacing="0">
+        <tr>
+            <td>
+                <mat-form-field class="fullwidth">
+                    <input matInput placeholder="First Name" id="firstname" [(ngModel)]="address.firstname" name="firstname">
+                </mat-form-field>
+            </td>
+            <td>
+                <mat-form-field class="fullwidth">
+                    <input matInput placeholder="Last Name" id="lastname" [(ngModel)]="address.lastname" name="lastname">
+                </mat-form-field>
+            </td>
+        </tr>
+    </table>
+    <p>
+        <mat-form-field class="fullwidth">
+            <textarea matInput placeholder="Address" id="address" [(ngModel)]="address.address" name="address"></textarea>
+        </mat-form-field>
+
+        
+    </p>
+    <table class="fullwidth" cellspacing="0">
+        <tr>
+            <td>
+              <mat-form-field class="fullwidth">
+                <input matInput #mobile maxlength="10" placeholder="Mobile No" id="mobile" [(ngModel)]="address.mobile" name="mobile">
+               
+            </mat-form-field>
+
+                <mat-form-field class="fullwidth">
+                    <input matInput placeholder="City" id="city" [(ngModel)]="address.city" name="city">
+                </mat-form-field>
+            </td><br>
+            <h3>State:</h3>
+            <td>
+                
+                <mat-form-field appearance="fill">
+                  <mat-label>State</mat-label>
+                  <select matNativeControl [(ngModel)]="selectedState" name="car">
+                    <option value="Select State" selected></option>
+                    <option *ngFor="let st of states" [value]="st.value">
+                      {{st.viewValue}}
+                    </option>
+                  </select>
+                </mat-form-field>
+               
+            </td>
+            <td>
+                <mat-form-field class="fullwidth">
+                    <input matInput #postalcode maxlength="6" placeholder="Postal Code" id="postalcode" [(ngModel)]="address.postalcode" name="postalcode">
+                    <!-- <md-hint align="end">
+                        {{postalcode.value.length}} / 6
+                    </md-hint> -->
+                </mat-form-field>
+            </td>
+        </tr>
+    </table>
+    <p>
+        <button type="submit" md-raised-button>Submit</button>
+    </p>
+</form>

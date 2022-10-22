@@ -1,0 +1,34 @@
+<br><br><br><h1 class="display-5 text-center">Item Details</h1>
+<div> </div>
+<table class="table table-hover student-details-table-width">
+    <thead align="center">
+       
+        <th>Time</th>
+        <th>Date</th>
+        <th>Book Name</th>
+        <th>Note</th>
+        &nbsp;&nbsp;
+        <th>Edit?</th>
+        <th>Delete?</th>
+    </thead>
+    <tbody align="center">
+        <tr *ngFor="let itemInfo of itemList">
+            <td>{{itemInfo.date}}<span>.</span></td>
+           
+            <td>{{itemInfo.cat}}</td>
+            <td>{{itemInfo.itemName}}
+            <td>{{itemInfo.note}}</td>
+           
+            <td>
+                <td><a class="btn text-warning" (click)="onEdit(itemInfo)"><i class="fa fa-edit" title="Edit"></i></a></td>
+            <td>
+                <a class="btn text-danger" (click)="onDelete(itemInfo)"><i class="fa fa-trash" title="Delete"></i></a></td>
+        
+                
+            <td>
+            </tr>
+    </tbody>
+</table>
+<div class="error" *ngIf="deleteMessage">
+    <h5 class="text-dark">{{ deleteMessage }}</h5>
+</div>
